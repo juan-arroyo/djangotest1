@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'myclub_website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '/usr/local/lsws/Example/html/djangotest1/db.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
